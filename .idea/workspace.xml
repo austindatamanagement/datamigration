@@ -10,8 +10,10 @@
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/LabGuide500.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/LabGuide600.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/images/datapump/compute1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabGuide200.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabGuide200.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabGuide400.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabGuide400.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/Intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabGuide500.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabGuide500.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LabGuide600.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabGuide600.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Datapump-workshop/test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop-template/Home-backup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Datapump-workshop/Home-backup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop-template/Intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Datapump-workshop/Intro.md" afterDir="false" />
@@ -238,23 +240,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="561" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="561" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest-single-version.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest-multi-version.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -278,8 +285,8 @@
         <entry file="file://$PROJECT_DIR$/LabGuide600.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="810">
-                <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+              <first_editor relative-caret-position="197">
+                <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
               </first_editor>
               <second_editor />
             </state>
@@ -287,11 +294,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Intro.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="77">
+                <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LabGuide500.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="600">
-                <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+              <first_editor relative-caret-position="137">
+                <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -334,11 +353,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabGuide200.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="362">
+              <first_editor relative-caret-position="515">
                 <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
               </first_editor>
               <second_editor />
@@ -374,14 +393,14 @@
         <option value="$PROJECT_DIR$/LabGuide300.md" />
         <option value="$PROJECT_DIR$/LabGuide100.md" />
         <option value="$PROJECT_DIR$/manifest.json" />
-        <option value="$PROJECT_DIR$/Intro.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/StudentGuide.md" />
         <option value="$PROJECT_DIR$/PandocsConversion.md" />
-        <option value="$PROJECT_DIR$/LabGuide600.md" />
-        <option value="$PROJECT_DIR$/LabGuide500.md" />
         <option value="$PROJECT_DIR$/LabGuide400.md" />
         <option value="$PROJECT_DIR$/LabGuide200.md" />
+        <option value="$PROJECT_DIR$/Intro.md" />
+        <option value="$PROJECT_DIR$/LabGuide600.md" />
+        <option value="$PROJECT_DIR$/LabGuide500.md" />
       </list>
     </option>
   </component>
@@ -485,16 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Intro.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="163">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LabGuide100.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -561,26 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabGuide600.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="810">
-            <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabGuide500.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="600">
-            <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -621,8 +610,38 @@
     <entry file="file://$PROJECT_DIR$/LabGuide200.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="362">
+          <first_editor relative-caret-position="515">
             <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="77">
+            <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabGuide600.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="197">
+            <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabGuide500.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="137">
+            <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>

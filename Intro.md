@@ -8,12 +8,12 @@ Welcome to the Data pump workshop. This workshop will walk you through the proce
 - Configure Linux Environment for Datapump.
 - Use expdp and impdp to export and import tables from ADWC.
 - Use Object Storage to store dump files (.dmp) and import into the ADWC environment from it.
-- Use the python script to import/export.
+- Audit the export using Unified Auditing.
 
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account with Autonomous Data Warehouse Cloud Service.
 - A public and a private ssh keys.
-- SFTP Software to transfer files to compute instance. I have used Filezilla.
+- SFTP Software to transfer files to compute instance - Windows Users. I have used Filezilla.
 
 ### **Step 1**: Acquire an Oracle Cloud Trial or Workshop Account
 

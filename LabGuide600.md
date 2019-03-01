@@ -9,7 +9,7 @@ This lab guide will walk you through the process of importing a table in ADWC th
 ## Objectives
 
 - Drop a table from ADWC
-- Import a table using impdp, Datapump.
+- Import a table using impdp, Datapump from object storage.
 
 ###  **STEP 1**: Delete Table from ADWC.
 
@@ -17,30 +17,7 @@ This lab guide will walk you through the process of importing a table in ADWC th
 
     ![](images/datapump/compute45.png)
 
-###  **STEP 2**: Import a table using impdp, Datapump.
-
-- Makes sure that you are in **/home/opc/oracle/instantclient_18_3**. 
-
-- You can also import a schema by mentioning another parameter as **schema**.
-
-- Copy paste the command below, but before that, change the following parameter. 
-
-    - **service_name** : `Name of the service, for this demo we are using high`
-
-    - **dumpfile_name** : `Dump file set location`
-    
-   **impdp admin@service_name directory=data_pump_dir 
-   credential=def_cred_name 
-   dumpfile=dumpfile_name transform=segment_attributes:n 
-   transform=dwcs_cvt_iots:y transform=constraint_use_default_index:y 
-   exclude=index, cluster, indextype, materialized_view, materialized_view_log, materialized_zonemap, db_link**   
-   
-   
-   You will be able to see CHANNELS table again 
-   
-   ![](images/datapump/compute46.png)
- 
- ###  **STEP 3**: Import a table using impdp, Datapump through object storage.
+###  **STEP 2**: Import a table using impdp, Datapump from Object Storage..
 
 - Makes sure that you are in **/home/opc/oracle/instantclient_18_3**. 
 
@@ -50,15 +27,15 @@ This lab guide will walk you through the process of importing a table in ADWC th
 
     - **credential** : `The credential that you have created in lab 200, step 2`
 
-    - **service_name** : `Name of the service, for this demo we are using high`
+    - **service_name** : `Name of the service, for this demo we are using high. Your service name should be databasename_high`
 
-    - **dumpfile** : `Dump file set location. Here it is the swift url of the file in Object Storage`
-    
-   **impdp admin@service_name directory=data_pump_dir 
+    - **dumpfile** : `Dump file Object Storage location.`
+                      
+   impdp admin@service_name directory=data_pump_dir 
    credential=def_cred_name 
-   dumpfile=https://swiftobjectstorage.us-ashburn-1.oraclecloud.com/v1/gse00014638/ETEBucket/DataPumpDemo.dmp transform=segment_attributes:n 
+   dumpfile=https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**tenancy_name**/**Bucket_Name**/DataPumpDemo.dmp transform=segment_attributes:n 
    transform=dwcs_cvt_iots:y transform=constraint_use_default_index:y 
-   exclude=index, cluster, indextype, materialized_view, materialized_view_log, materialized_zonemap, db_link**   
+   exclude=index, cluster, indextype, materialized_view, materialized_view_log, materialized_zonemap, db_link  
    
    
    You will be able to see CHANNELS table again 

@@ -26,10 +26,6 @@ This lab guide will walk you through the process of exporting tables from ADWC t
   You can also give object storage location for dump file. 
 
     ![](images/datapump/compute43.png)
-  
-- Make sure to copy paste the **Dump file set location**:
-
-    ![](images/datapump/compute44.png)
     
 
 ### **STEP 2**: Move the Datapump file from DATA_PUMP_DIR to Object Storage:
@@ -38,16 +34,21 @@ This lab guide will walk you through the process of exporting tables from ADWC t
     
     **credential_name** : `Make sure that you change credential name to your own credential that was created in Lab200, step 2.`
     
-    **object_uri** : `Swift URL of your object storage followed by the file name that you want it to be stored.`
+    **object_uri** : `Swift URL of your object storage followed by the file name that you want it to be stored.
+                      Create the swift URL as follows: https://swiftobjectstorage.**your_region**.oraclecloud.com/v1/**tenancy_name**/**Bucket_Name**/DataPumpDemo.dmp
+                      Change the following parameters:
+                      your_region : e.g. ca-toronto-1, eu-frankfurt-1, uk-london-1, us-ashburn-1, us-gov-ashburn-1, us-gov-chicago-1, us-gov-phoenix-1, us-langley-1, us-luke-1, us-phoenix-1
+                      tenancy_name: Your tenancy name
+                      bucket_name: The name of the bucket in which you have stored the dmp file`
     
-    **file_name** : `Name of the file in data pump directory`
+    **file_name** : `Name of the dump file in data pump directory`
     
     Type the following command :
     
     **BEGIN
     DBMS_CLOUD.PUT_OBJECT(
     credential_name => 'DEF_CRED_NAME',
-    object_uri => 'https://swiftobjectstorage.us-ashburn-1.oraclecloud.com/v1/gse00014638/ETEBucket/DataPumpDemo.dmp',
+    object_uri => 'https://swiftobjectstorage.us-ashburn-1.oraclecloud.com/v1/gse000###/DemoBucket/DataPumpDemo.dmp',
     directory_name  => 'DATA_PUMP_DIR',
     file_name => 'DataPumpDemo.dmp');
     END;

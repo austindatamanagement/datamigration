@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17bca010-80da-4546-af11-82b900d204c7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LabGuide700.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/datapump/audit1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/datapump/audit3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/datapump/audit4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/datapump/audit5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/datapump/audit6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/datapump/audit7.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/LabGuide100.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/LabGuide200.md" afterDir="false" />
@@ -18,8 +11,7 @@
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/LabGuide500.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/LabGuide600.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Datapump-workshop/images/datapump/compute1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabGuide600.md" beforeDir="false" afterPath="$PROJECT_DIR$/LabGuide600.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Datapump-workshop/test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop-template/Home-backup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Datapump-workshop/Home-backup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop-template/Intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Datapump-workshop/Intro.md" afterDir="false" />

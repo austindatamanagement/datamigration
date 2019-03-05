@@ -53,6 +53,13 @@
                 "title": "Lab 600: Import a table from ADWC through datapump.",
                 "description": ""
 
+            },
+            {
+                "number": "700",
+                "filename": "LabGuide700.md",
+                "title": "Lab 600: Unified Auditing - Datapump.",
+                "description": ""
+
             }
 
 

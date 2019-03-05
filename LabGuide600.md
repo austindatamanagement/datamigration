@@ -31,11 +31,11 @@ This lab guide will walk you through the process of importing a table in ADWC th
 
     - **dumpfile** : `Dump file Object Storage location.`
                       
-   impdp admin@service_name directory=data_pump_dir 
+   **impdp admin@service_name directory=data_pump_dir 
    credential=def_cred_name 
-   dumpfile=https://swiftobjectstorage.**your region**.oraclecloud.com/v1/**tenancy_name**/**Bucket_Name**/DataPumpDemo.dmp transform=segment_attributes:n 
+   dumpfile=https://swiftobjectstorage.us-ashburn-1.oraclecloud.com/v1/gse000###/DemoBucket/DataPumpDemo.dmp transform=segment_attributes:n 
    transform=dwcs_cvt_iots:y transform=constraint_use_default_index:y 
-   exclude=index, cluster, indextype, materialized_view, materialized_view_log, materialized_zonemap, db_link  
+   exclude=index, cluster, indextype, materialized_view, materialized_view_log, materialized_zonemap, db_link** 
    
    
    You will be able to see CHANNELS table again 

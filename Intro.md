@@ -1,14 +1,16 @@
 # Data Migration with Autonomous Data Warehouse Cloud Service
 
-Welcome to the Data pump workshop. This workshop will walk you through the process of configuring Data Pump with Autonomous Data Warehouse Cloud service in Linux Compute Instance... 
+Welcome to the Data Migration Workshop. This workshop will walk you through the process of configuring Data Pump with Autonomous Data Warehouse Cloud service in Linux Compute Instance... 
 
 ## Objectives
 - Create Autonomous Data Warehouse Cloud Service (ADWC) instance.
 - Create compute instance.
 - Configure Linux Environment for Datapump.
-- Use expdp and impdp to export and import tables from ADWC.
-- Use Object Storage to store dump files (.dmp) and import into the ADWC environment from it.
-- Audit the export using Unified Auditing.
+- Use impdp to import tables from ADWC into .dmp file.
+- Create Object Storage.
+- Push .dmp file from data_pump_dir to object storage using dbms_cloud package.
+- Import into the ADWC environment from object storage.
+- Audit the export done on the table using Unified Auditing.
 
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account with Autonomous Data Warehouse Cloud Service.
